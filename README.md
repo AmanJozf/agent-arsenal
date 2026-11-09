@@ -9,6 +9,7 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 | Skill | Category / Purpose | Quick Install | Source | Details |
 |---|---|---|---|---|
 | [**Ponytail**](./skills/ponytail/) | **Minimalist Senior Dev Mode**<br>Reduces code bloat (-53%), cuts tokens (-45%), ensures 98% risky logic is tested, and forbids premature abstraction. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/ponytail/AGENTS.md -o AGENTS.md` | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | [Setup Guide](./skills/ponytail/README.md) |
+| [**OmniRoute**](./skills/omniroute/) | **Multi-Provider AI Gateway & Router**<br>One OpenAI-compatible endpoint for 375+ providers & 1,400+ models. Auto-fallback, RTK token compression (saves 15-95%), and MCP/A2A. | `npm install -g omniroute && omniroute serve --daemon` | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | [Setup Guide](./skills/omniroute/README.md) |
 
 ---
 
@@ -19,16 +20,16 @@ agent-arsenal/
 ├── README.md               # Catalog index of all curated skills
 ├── .gitignore              # Clean ignore rules
 └── skills/                 # Skills root directory
-    └── ponytail/           # Ponytail: Lazy Senior Dev Mode
-        ├── README.md       # Skill overview & quick install guide
-        ├── SKILL.md        # Skill definition
-        ├── AGENTS.md       # Universal markdown rules for any agent
-        └── commands/       # Companion commands (review, audit, debt, etc.)
-            ├── audit.md
-            ├── debt.md
-            ├── gain.md
-            ├── help.md
-            └── review.md
+    ├── ponytail/           # Ponytail: Lazy Senior Dev Mode
+    │   ├── README.md       # Skill overview & quick install guide
+    │   ├── SKILL.md        # Skill definition
+    │   ├── AGENTS.md       # Universal markdown rules for any agent
+    │   └── commands/       # Companion commands (review, audit, debt, etc.)
+    └── omniroute/          # OmniRoute: Multi-Provider AI Gateway & Router
+        ├── README.md       # Overview & agent routing guide
+        ├── SKILL.md        # Gateway invocation skill
+        ├── AGENTS.md       # Operational rules & integration guidelines
+        └── skills-reference.md # 45 drop-in REST & CLI sub-skills
 ```
 
 ---
