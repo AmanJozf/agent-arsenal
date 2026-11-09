@@ -11,6 +11,7 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 | [**Ponytail**](./skills/ponytail/) | **Minimalist Senior Dev Mode**<br>Reduces code bloat (-53%), cuts tokens (-45%), ensures 98% risky logic is tested, and forbids premature abstraction. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/ponytail/AGENTS.md -o AGENTS.md` | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | [Setup Guide](./skills/ponytail/README.md) |
 | [**OmniRoute**](./skills/omniroute/) | **Multi-Provider AI Gateway & Router**<br>One OpenAI-compatible endpoint for 375+ providers & 1,400+ models. Auto-fallback, RTK token compression (saves 15-95%), and MCP/A2A. | `npm install -g omniroute && omniroute serve --daemon` | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | [Setup Guide](./skills/omniroute/README.md) |
 | [**FreeLLMAPI**](./skills/freellmapi/) | **Free LLM Gateway & Pool Router**<br>Aggregates 7.4B tokens/mo across 34 free providers & 635 models behind one /v1 endpoint with auto-setup generators for Claude Code, Cursor, Codex, OpenCode, and Aider. | `curl -fsSL https://freellmapi.co/install.sh \| bash` | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | [Setup Guide](./skills/freellmapi/README.md) |
+| [**Addy Engineering**](./skills/addy-engineering/) | **Production-Grade Engineering Skills**<br>25 senior software engineering skills by Addy Osmani (Chrome Lead): TDD, spec-driven development, code review, simplification, debugging, and security. | `/plugin marketplace add addyosmani/agent-skills && /plugin install agent-skills@agent-skills` | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | [Setup Guide](./skills/addy-engineering/README.md) |
 
 ---
 
@@ -34,11 +35,16 @@ agent-arsenal/
     │   ├── GEMINI.md       # Official Gemini CLI rules
     │   ├── SKILLS_CATALOG.md # 46 drop-in REST & CLI sub-skills catalog
     │   └── skills/         # All 46 full, official, un-truncated sub-skills manifests
-    └── freellmapi/         # FreeLLMAPI: Multi-Provider Free AI Gateway
-        ├── README.md       # Overview & instant install guide
-        ├── SKILL.md        # Gateway invocation skill
-        ├── AGENTS.md       # Operational rules for coding assistants
-        └── agent-setup-guide.md # Automated setup generators for 20+ agents
+    ├── freellmapi/         # FreeLLMAPI: Multi-Provider Free AI Gateway
+    │   ├── README.md       # Overview & instant install guide
+    │   ├── SKILL.md        # Gateway invocation skill
+    │   ├── AGENTS.md       # Operational rules for coding assistants
+    │   └── agent-setup-guide.md # Automated setup generators for 20+ agents
+    └── addy-engineering/   # Production-Grade Engineering Skills (Addy Osmani)
+        ├── README.md       # Catalog & installation guide
+        ├── AGENTS.md       # Intent-to-skill mapping engine
+        ├── CLAUDE.md       # Claude Code plugin setup
+        └── skills/         # All 25 complete engineering skills & scripts
 ```
 
 ---
