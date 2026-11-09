@@ -1,6 +1,6 @@
 # ⚡ Agent Arsenal: Curated AI Coding Skills & Customizations
 
-A curated, personal catalog of high-impact AI coding skills, agent prompt rules, multi-provider gateways, and programmatic media workflows for Claude Code, Antigravity, Cursor, Codex, OpenCode, and any `AGENTS.md`-compatible assistant.
+A curated, personal catalog of high-impact AI coding skills, agent prompt rules, multi-provider gateways, UI design engines, and browser automation workflows for Claude Code, Antigravity, Cursor, Codex, OpenCode, and any `AGENTS.md`-compatible assistant.
 
 ---
 
@@ -25,7 +25,23 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 ### 🎬 3. Video & Media Generation (`skills/video-media/`)
 | Skill | Description | Quick Install | Source | Details |
 |---|---|---|---|---|
+| [**Watch**](./skills/video-media/watch/) | **Video Understanding for Coding Agents**<br>Extracts timestamped frames and transcripts from YouTube, Loom, or local MP4s with `/watch`. Allows agents to recreate UI and isolate bugs directly from video. | `/plugin marketplace add bradautomates/claude-video && /plugin install watch@claude-video` | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | [Setup Guide](./skills/video-media/watch/README.md) |
 | [**HyperFrames**](./skills/video-media/hyperframes/) | **HTML-to-Video Engine for Agents**<br>Enables agents to write standard HTML/CSS/GSAP and deterministically render frame-by-frame MP4/WebM videos, launch films, animations, and social clips. Includes 9 sub-skills. | `npx skills add heygen-com/hyperframes` | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | [Setup Guide](./skills/video-media/hyperframes/README.md) |
+
+---
+
+### 🎨 4. Design & UI Systems (`skills/design/`)
+| Skill | Description | Quick Install | Source | Details |
+|---|---|---|---|---|
+| [**21st.dev**](./skills/design/21st-dev/) | **Design Engineer & UI Component Generator**<br>Marketplace of 10,000+ production React/Tailwind (shadcn-compatible) components, AI UI generation like v0, and official SVG brand logo search via MCP. | `npx @21st-dev/cli@latest init --client cursor` | [21st-dev/magic-mcp](https://github.com/21st-dev/magic-mcp) | [Setup Guide](./skills/design/21st-dev/README.md) |
+
+---
+
+### 🌐 5. Browser Automation & Scraping (`skills/browser-automation/`)
+| Skill | Description | Quick Install | Source | Details |
+|---|---|---|---|---|
+| [**Playwright MCP**](./skills/browser-automation/playwright-mcp/) | **Microsoft Playwright Browser Automation**<br>Control real Chromium/Firefox browsers directly from your agent: click elements, fill forms, navigate pages, and capture screenshots. | `npx -y @playwright/mcp@latest` | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | [Setup Guide](./skills/browser-automation/playwright-mcp/README.md) |
+| [**Apify MCP**](./skills/browser-automation/apify/) | **Web Scraping & Cloud Actors**<br>Extract clean data from any website without getting blocked, search Google in real-time, and run 1,500+ pre-built cloud scrapers (YouTube, Twitter, LinkedIn). | `npx -y @apify/actors-mcp-server` | [apify/apify-mcp-server](https://github.com/apify/apify-mcp-server) | [Setup Guide](./skills/browser-automation/apify/README.md) |
 
 ---
 
@@ -44,8 +60,16 @@ agent-arsenal/
     │   ├── omniroute/                  # 375+ providers gateway, RTK compression & 46 sub-skills
     │   └── freellmapi/                 # 7.4B tokens/mo free gateway & 20+ agent generators
     │
-    └── video-media/                    # Deterministic media and video rendering
-        └── hyperframes/                # HeyGen's HTML/CSS-to-video engine (9 sub-skills)
+    ├── video-media/                    # Video understanding & code-to-video rendering
+    │   ├── watch/                      # Claude Video /watch (scene extraction & audio transcription)
+    │   └── hyperframes/                # HeyGen's HTML/CSS-to-video engine (9 sub-skills)
+    │
+    ├── design/                         # UI components, animations & design systems
+    │   └── 21st-dev/                   # 21st.dev Magic MCP (v0-style component search & generation)
+    │
+    └── browser-automation/             # Web automation, headless browsing & scraping
+        ├── playwright-mcp/             # Microsoft Playwright MCP (browser navigation, clicks, screenshots)
+        └── apify/                      # Apify MCP (web scraping & 1,500+ cloud data scrapers)
 ```
 
 ---
