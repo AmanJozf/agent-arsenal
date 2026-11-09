@@ -10,6 +10,7 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 |---|---|---|---|---|
 | [**Ponytail**](./skills/ponytail/) | **Minimalist Senior Dev Mode**<br>Reduces code bloat (-53%), cuts tokens (-45%), ensures 98% risky logic is tested, and forbids premature abstraction. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/ponytail/AGENTS.md -o AGENTS.md` | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | [Setup Guide](./skills/ponytail/README.md) |
 | [**OmniRoute**](./skills/omniroute/) | **Multi-Provider AI Gateway & Router**<br>One OpenAI-compatible endpoint for 375+ providers & 1,400+ models. Auto-fallback, RTK token compression (saves 15-95%), and MCP/A2A. | `npm install -g omniroute && omniroute serve --daemon` | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | [Setup Guide](./skills/omniroute/README.md) |
+| [**FreeLLMAPI**](./skills/freellmapi/) | **Free LLM Gateway & Pool Router**<br>Aggregates 7.4B tokens/mo across 34 free providers & 635 models behind one /v1 endpoint with auto-setup generators for Claude Code, Cursor, Codex, OpenCode, and Aider. | `curl -fsSL https://freellmapi.co/install.sh \| bash` | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | [Setup Guide](./skills/freellmapi/README.md) |
 
 ---
 
@@ -25,14 +26,19 @@ agent-arsenal/
     │   ├── SKILL.md        # Skill definition
     │   ├── AGENTS.md       # Universal markdown rules for any agent
     │   └── commands/       # Companion commands (review, audit, debt, etc.)
-    └── omniroute/          # OmniRoute: Multi-Provider AI Gateway & Router
-        ├── README.md       # Overview & agent routing guide
+    ├── omniroute/          # OmniRoute: Multi-Provider AI Gateway & Router
+    │   ├── README.md       # Overview & agent routing guide
+    │   ├── SKILL.md        # Gateway invocation skill
+    │   ├── AGENTS.md       # Full official agent guide (single source of truth)
+    │   ├── CLAUDE.md       # Official Claude Code rules
+    │   ├── GEMINI.md       # Official Gemini CLI rules
+    │   ├── SKILLS_CATALOG.md # 46 drop-in REST & CLI sub-skills catalog
+    │   └── skills/         # All 46 full, official, un-truncated sub-skills manifests
+    └── freellmapi/         # FreeLLMAPI: Multi-Provider Free AI Gateway
+        ├── README.md       # Overview & instant install guide
         ├── SKILL.md        # Gateway invocation skill
-        ├── AGENTS.md       # Full official agent guide (single source of truth)
-        ├── CLAUDE.md       # Official Claude Code rules
-        ├── GEMINI.md       # Official Gemini CLI rules
-        ├── SKILLS_CATALOG.md # 46 drop-in REST & CLI sub-skills catalog
-        └── skills/         # All 46 full, official, un-truncated sub-skills manifests
+        ├── AGENTS.md       # Operational rules for coding assistants
+        └── agent-setup-guide.md # Automated setup generators for 20+ agents
 ```
 
 ---
