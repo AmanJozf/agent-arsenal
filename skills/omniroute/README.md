@@ -59,6 +59,9 @@ Add OmniRoute as a custom OpenAI-compatible provider:
 
 ## 📦 Files in this Skill
 
-- [`SKILL.md`](./SKILL.md) - Skill definition & CLI invocation commands.
-- [`AGENTS.md`](./AGENTS.md) - Operational guidelines & rules for agent integration.
-- [`skills-reference.md`](./skills-reference.md) - Catalog of 45 drop-in REST & CLI sub-skills.
+- [`SKILL.md`](./SKILL.md) - Master gateway invocation skill.
+- [`AGENTS.md`](./AGENTS.md) - Full official OmniRoute agent guide (single source of truth for all coding agents).
+- [`CLAUDE.md`](./CLAUDE.md) - Full Claude Code agent directives and instructions.
+- [`GEMINI.md`](./GEMINI.md) - Full Gemini CLI agent directives and instructions.
+- [`SKILLS_CATALOG.md`](./SKILLS_CATALOG.md) - Full catalog of all 46 drop-in REST & CLI sub-skills.
+- [`skills/`](./skills/) - Complete collection of all 46 official, un-truncated `SKILL.md` sub-skill definitions (authentication, routing, compression, resilience, MCP tools, A2A protocol, skill collector, etc.).

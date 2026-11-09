@@ -28,8 +28,11 @@ agent-arsenal/
     └── omniroute/          # OmniRoute: Multi-Provider AI Gateway & Router
         ├── README.md       # Overview & agent routing guide
         ├── SKILL.md        # Gateway invocation skill
-        ├── AGENTS.md       # Operational rules & integration guidelines
-        └── skills-reference.md # 45 drop-in REST & CLI sub-skills
+        ├── AGENTS.md       # Full official agent guide (single source of truth)
+        ├── CLAUDE.md       # Official Claude Code rules
+        ├── GEMINI.md       # Official Gemini CLI rules
+        ├── SKILLS_CATALOG.md # 46 drop-in REST & CLI sub-skills catalog
+        └── skills/         # All 46 full, official, un-truncated sub-skills manifests
 ```
 
 ---
