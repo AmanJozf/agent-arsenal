@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+Gives your agent access to 7.4 billion pooled free tokens per month across 34 providers and generates one-command setup files for tools like Claude Code, Cursor, and Codex.
+
+REAL EXAMPLE:
+You run `npx freellmapi setup-claude --api-key <key>`.
+It instantly configures Claude Code to route your questions through high-speed free models like Groq and Cerebras without any manual file editing.

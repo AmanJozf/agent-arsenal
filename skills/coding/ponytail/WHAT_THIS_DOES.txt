@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+Forces your AI agent into "lazy senior developer mode". It solves problems with the smallest possible amount of clean code, avoids speculative features, and ensures all risky logic has a test.
+
+REAL EXAMPLE:
+You say: "Add a date picker to this form."
+Instead of installing a heavy 300-line library, Ponytail reuses your project's existing Input component with type="date", solving the problem in just 10 clean lines.

@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+Allows your AI agent to "watch" any YouTube link, Loom clip, or local MP4 recording. It extracts key visual scene frames and synchronized audio transcripts so the agent can code from video.
+
+REAL EXAMPLE:
+You record a 20-second screen capture of a cool button animation and say:
+"/watch demo.mp4 Recreate this exact animation and layout in React + Tailwind."

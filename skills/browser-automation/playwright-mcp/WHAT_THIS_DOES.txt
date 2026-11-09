@@ -1,0 +1,5 @@
+WHAT THIS DOES:
+Gives your agent control of a real web browser to visit websites, click buttons, fill out forms, scroll, and capture screenshots for automated testing and verification.
+
+REAL EXAMPLE:
+You say: "Go to http://localhost:3000, fill out the registration form with test data, click Submit, and take a screenshot of the dashboard to verify it works."

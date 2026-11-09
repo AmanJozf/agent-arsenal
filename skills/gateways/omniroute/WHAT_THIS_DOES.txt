@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+A central gateway that routes your agent through 375+ AI model providers. It automatically switches to backup models when rate limits hit and compresses prompts to save up to 90% on token costs.
+
+REAL EXAMPLE:
+You are in a long coding session and Anthropic returns a "429 Rate Limit" error.
+OmniRoute automatically reroutes your request to an OpenAI or DeepSeek backup in milliseconds without interrupting your chat.

@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+A 25-skill senior engineering playbook created by Addy Osmani (Google Chrome Lead). It guides your agent through writing formal specs, Test-Driven Development (TDD), code simplification, and security hardening.
+
+REAL EXAMPLE:
+You say: "I need to build user subscriptions."
+The agent automatically invokes `spec-driven-development` to plan edge cases, then `test-driven-development` to write failing tests, and implements the billing logic step by step without bugs.

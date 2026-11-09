@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+Enables your AI agent to create real MP4/WebM videos simply by writing standard HTML, CSS, and GSAP animations, rendering them frame-by-frame with 100% pixel-perfect consistency.
+
+REAL EXAMPLE:
+You say: "Create a 15-second product launch video announcing our new feature."
+The agent writes standard HTML/CSS cards, and HyperFrames compiles it into an exportable video file with smooth easing and typography.

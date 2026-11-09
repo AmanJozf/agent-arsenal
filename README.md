@@ -1,6 +1,8 @@
 # ⚡ Agent Arsenal: Curated AI Coding Skills & Customizations
 
-A curated, personal catalog of high-impact AI coding skills, agent prompt rules, multi-provider gateways, UI design engines, and browser automation workflows for Claude Code, Antigravity, Cursor, Codex, OpenCode, and any `AGENTS.md`-compatible assistant.
+A curated, personal catalog of high-impact AI coding skills, agent prompt rules, multi-provider gateways, UI design engines, browser automation, and persistent memory workflows for Claude Code, Antigravity, Cursor, Codex, OpenCode, and any `AGENTS.md`-compatible assistant.
+
+> **💡 Quick Tip:** Every skill folder contains a `WHAT_THIS_DOES.txt` file with a 1–3 sentence explanation and a real-world prompt example for instant reference!
 
 ---
 
@@ -45,6 +47,13 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 
 ---
 
+### 🧠 6. Persistent Memory (`skills/memory/`)
+| Skill | Description | Quick Install | Source | Details |
+|---|---|---|---|---|
+| [**Mem0**](./skills/memory/mem0/) | **Persistent Memory Layer for Agents**<br>Solves context drift and prompt fading by continuously remembering your personal coding preferences, habits, and rules across conversations and sessions. | `npx -y @mem0/mcp` | [mem0ai/mem0](https://github.com/mem0ai/mem0) | [Setup Guide](./skills/memory/mem0/README.md) |
+
+---
+
 ## 📂 Repository Structure
 
 ```text
@@ -53,23 +62,26 @@ agent-arsenal/
 ├── .gitignore                          # Clean ignore rules
 └── skills/
     ├── coding/                         # Senior engineering, clean code & workflow rules
-    │   ├── ponytail/                   # Minimalist senior dev mode & 5 companion tools
-    │   └── agent-skills/               # Addy Osmani's 25 production engineering skills
+    │   ├── ponytail/                   # Minimalist senior dev mode (WHAT_THIS_DOES.txt)
+    │   └── agent-skills/               # Addy Osmani's 25 production skills (WHAT_THIS_DOES.txt)
     │
     ├── gateways/                       # Multi-provider routing, proxy servers & token pools
-    │   ├── omniroute/                  # 375+ providers gateway, RTK compression & 46 sub-skills
-    │   └── freellmapi/                 # 7.4B tokens/mo free gateway & 20+ agent generators
+    │   ├── omniroute/                  # 375+ providers & RTK compression (WHAT_THIS_DOES.txt)
+    │   └── freellmapi/                 # 7.4B tokens/mo free gateway (WHAT_THIS_DOES.txt)
     │
     ├── video-media/                    # Video understanding & code-to-video rendering
-    │   ├── watch/                      # Claude Video /watch (scene extraction & audio transcription)
-    │   └── hyperframes/                # HeyGen's HTML/CSS-to-video engine (9 sub-skills)
+    │   ├── watch/                      # Claude Video /watch (WHAT_THIS_DOES.txt)
+    │   └── hyperframes/                # HeyGen's HTML/CSS-to-video engine (WHAT_THIS_DOES.txt)
     │
     ├── design/                         # UI components, animations & design systems
-    │   └── 21st-dev/                   # 21st.dev Magic MCP (v0-style component search & generation)
+    │   └── 21st-dev/                   # 21st.dev Magic MCP (WHAT_THIS_DOES.txt)
     │
-    └── browser-automation/             # Web automation, headless browsing & scraping
-        ├── playwright-mcp/             # Microsoft Playwright MCP (browser navigation, clicks, screenshots)
-        └── apify/                      # Apify MCP (web scraping & 1,500+ cloud data scrapers)
+    ├── browser-automation/             # Web automation, headless browsing & scraping
+    │   ├── playwright-mcp/             # Microsoft Playwright MCP (WHAT_THIS_DOES.txt)
+    │   └── apify/                      # Apify MCP (WHAT_THIS_DOES.txt)
+    │
+    └── memory/                         # Continuous cross-chat personal memory
+        └── mem0/                       # Persistent agent memory layer (WHAT_THIS_DOES.txt)
 ```
 
 ---
@@ -94,6 +106,7 @@ Most skills provide either a universal rules file (`AGENTS.md`) or a specific ag
 Whenever a new skill or rule is discovered:
 1. Place it into its logical category: `skills/<category>/<skill-name>/`
 2. Extract the core instructions (`SKILL.md`, `AGENTS.md`, or prompt files).
-3. Add a dedicated `README.md` with a 2-line "How to Install on Any Machine" guide.
-4. Add the skill to the **Skills Catalog** table above.
-5. Commit and push changes with a clean commit message.
+3. Add a `WHAT_THIS_DOES.txt` quick-reference summary card.
+4. Add a dedicated `README.md` with a 2-line "How to Install on Any Machine" guide.
+5. Add the skill to the **Skills Catalog** table above.
+6. Commit and push changes with a clean commit message.

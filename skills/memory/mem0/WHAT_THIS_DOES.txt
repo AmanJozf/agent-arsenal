@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+A continuous memory layer that stores your personal coding preferences, habits, and rules across conversations so your agent never forgets past instructions.
+
+REAL EXAMPLE:
+You tell your agent once: "Always write short, single-line Git commit messages."
+Even 50 messages later—or in a brand new chat next week—the agent still remembers and automatically writes single-line commits.

@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+An in-agent design tool (like v0) that lets your agent search, preview, and generate 10,000+ modern Tailwind, React, and shadcn UI components and official SVG brand logos.
+
+REAL EXAMPLE:
+You say: "Add a modern pricing table with a monthly/yearly toggle."
+The agent queries 21st.dev and pulls in a production-ready, dark-mode-compatible component directly into your source code.
