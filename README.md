@@ -1,17 +1,31 @@
 # ⚡ Agent Arsenal: Curated AI Coding Skills & Customizations
 
-A curated, personal catalog of high-impact AI coding skills, agent prompt rules, runbooks, and developer workflows for Claude Code, Antigravity, Cursor, Codex, OpenCode, and any `AGENTS.md`-compatible assistant.
+A curated, personal catalog of high-impact AI coding skills, agent prompt rules, multi-provider gateways, and programmatic media workflows for Claude Code, Antigravity, Cursor, Codex, OpenCode, and any `AGENTS.md`-compatible assistant.
 
 ---
 
-## 📚 Skills Catalog
+## 📚 Categorized Skills Catalog
 
-| Skill | Category / Purpose | Quick Install | Source | Details |
+### 💻 1. Coding & Engineering Playbooks (`skills/coding/`)
+| Skill | Description | Quick Install | Source | Details |
 |---|---|---|---|---|
-| [**Ponytail**](./skills/ponytail/) | **Minimalist Senior Dev Mode**<br>Reduces code bloat (-53%), cuts tokens (-45%), ensures 98% risky logic is tested, and forbids premature abstraction. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/ponytail/AGENTS.md -o AGENTS.md` | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | [Setup Guide](./skills/ponytail/README.md) |
-| [**OmniRoute**](./skills/omniroute/) | **Multi-Provider AI Gateway & Router**<br>One OpenAI-compatible endpoint for 375+ providers & 1,400+ models. Auto-fallback, RTK token compression (saves 15-95%), and MCP/A2A. | `npm install -g omniroute && omniroute serve --daemon` | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | [Setup Guide](./skills/omniroute/README.md) |
-| [**FreeLLMAPI**](./skills/freellmapi/) | **Free LLM Gateway & Pool Router**<br>Aggregates 7.4B tokens/mo across 34 free providers & 635 models behind one /v1 endpoint with auto-setup generators for Claude Code, Cursor, Codex, OpenCode, and Aider. | `curl -fsSL https://freellmapi.co/install.sh \| bash` | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | [Setup Guide](./skills/freellmapi/README.md) |
-| [**Agent Skills (Addy Osmani)**](./skills/agent-skills/) | **Production-Grade Engineering Skills**<br>25 senior software engineering skills by Addy Osmani (Chrome Lead): TDD, spec-driven development, code review, simplification, debugging, and security. | `/plugin marketplace add addyosmani/agent-skills && /plugin install agent-skills@agent-skills` | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | [Setup Guide](./skills/agent-skills/README.md) |
+| [**Ponytail**](./skills/coding/ponytail/) | **Minimalist Senior Dev Mode**<br>Reduces code bloat (-53%), cuts tokens (-45%), ensures 98% risky logic is tested, and forbids premature abstraction. Includes 5 review/audit tools. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/coding/ponytail/AGENTS.md -o AGENTS.md` | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | [Setup Guide](./skills/coding/ponytail/README.md) |
+| [**Agent Skills (Addy Osmani)**](./skills/coding/agent-skills/) | **Production-Grade Engineering Skills**<br>25 battle-tested senior engineering skills by Addy Osmani (Google Chrome Lead): TDD, spec design, code review, simplification, debugging, and security. | `/plugin marketplace add addyosmani/agent-skills && /plugin install agent-skills@agent-skills` | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | [Setup Guide](./skills/coding/agent-skills/README.md) |
+
+---
+
+### 🌐 2. Gateways & Infrastructure (`skills/gateways/`)
+| Skill | Description | Quick Install | Source | Details |
+|---|---|---|---|---|
+| [**OmniRoute**](./skills/gateways/omniroute/) | **Multi-Provider AI Gateway & Router**<br>One OpenAI-compatible endpoint for 375+ providers & 1,400+ models. Auto-fallback, RTK token compression (saves 15-95%), and 46 sub-skills. | `npm install -g omniroute && omniroute serve --daemon` | [cheaper-inference/OmniRoute](https://github.com/cheaper-inference/OmniRoute) | [Setup Guide](./skills/gateways/omniroute/README.md) |
+| [**FreeLLMAPI**](./skills/gateways/freellmapi/) | **Free LLM Gateway & Pool Router**<br>Aggregates 7.4B tokens/mo across 34 free providers & 635 models behind one /v1 endpoint with auto-setup generators for Claude Code, Cursor, Codex, and Aider. | `curl -fsSL https://freellmapi.co/install.sh \| bash` | [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) | [Setup Guide](./skills/gateways/freellmapi/README.md) |
+
+---
+
+### 🎬 3. Video & Media Generation (`skills/video-media/`)
+| Skill | Description | Quick Install | Source | Details |
+|---|---|---|---|---|
+| [**HyperFrames**](./skills/video-media/hyperframes/) | **HTML-to-Video Engine for Agents**<br>Enables agents to write standard HTML/CSS/GSAP and deterministically render frame-by-frame MP4/WebM videos, launch films, animations, and social clips. Includes 9 sub-skills. | `npx skills add heygen-com/hyperframes` | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | [Setup Guide](./skills/video-media/hyperframes/README.md) |
 
 ---
 
@@ -19,32 +33,19 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 
 ```text
 agent-arsenal/
-├── README.md               # Catalog index of all curated skills
-├── .gitignore              # Clean ignore rules
-└── skills/                 # Skills root directory
-    ├── ponytail/           # Ponytail: Lazy Senior Dev Mode
-    │   ├── README.md       # Skill overview & quick install guide
-    │   ├── SKILL.md        # Skill definition
-    │   ├── AGENTS.md       # Universal markdown rules for any agent
-    │   └── commands/       # Companion commands (review, audit, debt, etc.)
-    ├── omniroute/          # OmniRoute: Multi-Provider AI Gateway & Router
-    │   ├── README.md       # Overview & agent routing guide
-    │   ├── SKILL.md        # Gateway invocation skill
-    │   ├── AGENTS.md       # Full official agent guide (single source of truth)
-    │   ├── CLAUDE.md       # Official Claude Code rules
-    │   ├── GEMINI.md       # Official Gemini CLI rules
-    │   ├── SKILLS_CATALOG.md # 46 drop-in REST & CLI sub-skills catalog
-    │   └── skills/         # All 46 full, official, un-truncated sub-skills manifests
-    ├── freellmapi/         # FreeLLMAPI: Multi-Provider Free AI Gateway
-    │   ├── README.md       # Overview & instant install guide
-    │   ├── SKILL.md        # Gateway invocation skill
-    │   ├── AGENTS.md       # Operational rules for coding assistants
-    │   └── agent-setup-guide.md # Automated setup generators for 20+ agents
-    └── agent-skills/       # Production-Grade Engineering Skills (Addy Osmani)
-        ├── README.md       # Catalog & installation guide
-        ├── AGENTS.md       # Intent-to-skill mapping engine
-        ├── CLAUDE.md       # Claude Code plugin setup
-        └── skills/         # All 25 complete engineering skills & scripts
+├── README.md                           # Catalog index of all curated skills
+├── .gitignore                          # Clean ignore rules
+└── skills/
+    ├── coding/                         # Senior engineering, clean code & workflow rules
+    │   ├── ponytail/                   # Minimalist senior dev mode & 5 companion tools
+    │   └── agent-skills/               # Addy Osmani's 25 production engineering skills
+    │
+    ├── gateways/                       # Multi-provider routing, proxy servers & token pools
+    │   ├── omniroute/                  # 375+ providers gateway, RTK compression & 46 sub-skills
+    │   └── freellmapi/                 # 7.4B tokens/mo free gateway & 20+ agent generators
+    │
+    └── video-media/                    # Deterministic media and video rendering
+        └── hyperframes/                # HeyGen's HTML/CSS-to-video engine (9 sub-skills)
 ```
 
 ---
@@ -56,7 +57,7 @@ Most skills provide either a universal rules file (`AGENTS.md`) or a specific ag
 1. **For Any Agent (Cursor, Antigravity, Windsurf, OpenCode):**
    Copy the `AGENTS.md` file directly into your target project's root folder:
    ```bash
-   curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/<skill-name>/AGENTS.md -o AGENTS.md
+   curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/<category>/<skill-name>/AGENTS.md -o AGENTS.md
    ```
 
 2. **For Claude Code / Copilot / Codex CLI:**
@@ -67,7 +68,7 @@ Most skills provide either a universal rules file (`AGENTS.md`) or a specific ag
 ## 📥 Adding New Skills to this Repo
 
 Whenever a new skill or rule is discovered:
-1. Create a dedicated folder: `skills/<skill-name>/`
+1. Place it into its logical category: `skills/<category>/<skill-name>/`
 2. Extract the core instructions (`SKILL.md`, `AGENTS.md`, or prompt files).
 3. Add a dedicated `README.md` with a 2-line "How to Install on Any Machine" guide.
 4. Add the skill to the **Skills Catalog** table above.
