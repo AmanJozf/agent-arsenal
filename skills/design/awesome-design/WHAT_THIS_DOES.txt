@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+A viral catalog of 84+ production design systems and DESIGN.md files from top tech companies (Stripe, Linear, Apple, Vercel, Supabase, Tesla, Notion). It gives AI agents the exact colors, typography, and layout rules to build websites matching any iconic brand.
+
+REAL EXAMPLE:
+You say: "Build a billing and invoices page with Stripe's exact design language."
+The agent reads `design-md/stripe/DESIGN.md`, pulls in Stripe's navy ink, electric indigo, Sohne typography scale, and hairline borders to create an authentic Stripe-quality UI.

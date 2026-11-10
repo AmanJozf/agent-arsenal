@@ -1,0 +1,7 @@
+WHAT THIS DOES:
+An image-first art direction skill from Taste Skill that guides AI agents to turn visual design references and mockups into premium, production-ready frontend code. It enforces spacious heroes, prevents nested box bloat, and optimizes layouts for real laptop screens.
+
+REAL EXAMPLE:
+You provide a mockup image of an editorial product page and say:
+"Turn this design mockup into a live Next.js + Tailwind hero section."
+The agent analyzes the typography scale, whitespace ratios, and visual balance to code an exact, un-bloated match.

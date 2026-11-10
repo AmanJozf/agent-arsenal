@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+Vercel Labs' official design system audit skill (33k+ stars). It audits and guides your agent to build production-grade web interfaces following strict rules for accessibility, keyboard navigation, touch targets, and layout performance.
+
+REAL EXAMPLE:
+You say: "Audit my navbar and login form against Vercel's Web Interface Guidelines."
+The agent inspects the code, flags missing ARIA labels, detects non-semantic click handlers, and fixes layout shift issues.

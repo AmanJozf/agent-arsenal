@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+The viral anti-slop frontend skill (112k+ stars) that forces AI agents to design websites with genuine human taste. It eliminates generic purple gradients and repetitive card grids, enforcing editorial typography, real spacing, and boutique-studio quality.
+
+REAL EXAMPLE:
+You say: "Build a landing page for my AI developer tool, but make sure it doesn't look like generic AI slop."
+The agent loads Taste Skill, uses clean editorial typography, real interface previews, and quiet micro-interactions matching sites like figma.com and x.ai.

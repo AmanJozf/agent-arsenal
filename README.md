@@ -36,6 +36,10 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 ### 🎨 4. Design & UI Systems (`skills/design/`)
 | Skill | Description | Quick Install | Source | Details |
 |---|---|---|---|---|
+| [**Taste Skill**](./skills/design/taste-skill/) | **Anti-Slop Art Direction & Design Engine (112k+ stars)**<br>Eliminates generic AI slop, purple blobs, and repetitive cards. Enforces real editorial typography, spacing, authentic photography, and quiet micro-interactions matching Figma and x.ai. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/taste-skill/AGENTS.md -o AGENTS.md` | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | [Setup Guide](./skills/design/taste-skill/README.md) |
+| [**Image-to-Code Skill**](./skills/design/image-to-code-skill/) | **Image-First Art Direction & Implementation**<br>Directs agents to design spacious heroes, avoid "cards-inside-cards" UI, and implement pixel-perfect visual mockups optimized for real laptop viewports. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/image-to-code-skill/AGENTS.md -o AGENTS.md` | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | [Setup Guide](./skills/design/image-to-code-skill/README.md) |
+| [**Web Design Guidelines**](./skills/design/web-design-guidelines/) | **Vercel Labs Web Interface Guidelines (33k+ stars)**<br>Audits and guides UI code against Vercel's production standards: accessibility (WCAG AA), semantic tags, touch targets, keyboard navigation, and zero layout shift. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/web-design-guidelines/AGENTS.md -o AGENTS.md` | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | [Setup Guide](./skills/design/web-design-guidelines/README.md) |
+| [**Awesome Design MD**](./skills/design/awesome-design/) | **84+ Iconic Tech Brand Design Systems (126k+ stars)**<br>Complete token contracts (`DESIGN.md`) for Stripe, Linear, Apple, Vercel, Supabase, Tesla, Notion, Raycast, and Figma so agents build authentic brand UIs. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/awesome-design/AGENTS.md -o AGENTS.md` | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | [Setup Guide](./skills/design/awesome-design/README.md) |
 | [**21st.dev**](./skills/design/21st-dev/) | **Design Engineer & UI Component Generator**<br>Marketplace of 10,000+ production React/Tailwind (shadcn-compatible) components, AI UI generation like v0, and official SVG brand logo search via MCP. | `npx @21st-dev/cli@latest init --client cursor` | [21st-dev/magic-mcp](https://github.com/21st-dev/magic-mcp) | [Setup Guide](./skills/design/21st-dev/README.md) |
 | [**Screenshot to Code**](./skills/design/screenshot-to-code/) | **Visual Frontend & Mockup Replicator (65k+ stars)**<br>Converts any UI screenshot, Figma design, or wireframe into clean, responsive HTML, React, or Vue code with Tailwind CSS matching typography, colors, and layout. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/screenshot-to-code/AGENTS.md -o AGENTS.md` | [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) | [Setup Guide](./skills/design/screenshot-to-code/README.md) |
 | [**Uiverse Galaxy**](./skills/design/uiverse/) | **Open-Source CSS & Tailwind Micro-Components (14k+ stars)**<br>Catalog of 3,000+ community UI micro-components: neon buttons, glassmorphic cards, animated loaders, and toggle switches with zero npm dependencies. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/uiverse/AGENTS.md -o AGENTS.md` | [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) | [Setup Guide](./skills/design/uiverse/README.md) |
@@ -45,7 +49,8 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 ### 🌐 5. Browser Automation & Scraping (`skills/browser-automation/`)
 | Skill | Description | Quick Install | Source | Details |
 |---|---|---|---|---|
-| [**Playwright MCP**](./skills/browser-automation/playwright-mcp/) | **Microsoft Playwright Browser Automation**<br>Control real Chromium/Firefox browsers directly from your agent: click elements, fill forms, navigate pages, and capture screenshots. | `npx -y @playwright/mcp@latest` | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | [Setup Guide](./skills/browser-automation/playwright-mcp/README.md) |
+| [**Playwright CLI**](./skills/browser-automation/playwright-cli/) | **Token-Efficient Playwright CLI & Skills (15k+ stars)**<br>Microsoft's CLI-based browser automation for coding agents: tests flows and takes screenshots without bloating context windows with heavy accessibility trees. | `npm install -g @playwright/cli@latest && playwright-cli install --skills` | [microsoft/playwright-cli](https://github.com/microsoft/playwright-cli) | [Setup Guide](./skills/browser-automation/playwright-cli/README.md) |
+| [**Playwright MCP**](./skills/browser-automation/playwright-mcp/) | **Microsoft Playwright Browser Automation**<br>Control real Chromium/Firefox browsers directly from your agent: click elements, fill forms, navigate pages, and capture screenshots via MCP protocol. | `npx -y @playwright/mcp@latest` | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | [Setup Guide](./skills/browser-automation/playwright-mcp/README.md) |
 | [**Apify MCP**](./skills/browser-automation/apify/) | **Web Scraping & Cloud Actors**<br>Extract clean data from any website without getting blocked, search Google in real-time, and run 1,500+ pre-built cloud scrapers (YouTube, Twitter, LinkedIn). | `npx -y @apify/actors-mcp-server` | [apify/apify-mcp-server](https://github.com/apify/apify-mcp-server) | [Setup Guide](./skills/browser-automation/apify/README.md) |
 
 ---
@@ -85,11 +90,16 @@ agent-arsenal/
     │   └── brag/                       # Automated codebase launch video generator (WHAT_THIS_DOES.txt)
     │
     ├── design/                         # UI components, animations & design systems
+    │   ├── taste-skill/                # Anti-slop frontend art direction (WHAT_THIS_DOES.txt)
+    │   ├── image-to-code-skill/        # Image-first visual implementation (WHAT_THIS_DOES.txt)
+    │   ├── web-design-guidelines/      # Vercel Labs design audit & standards (WHAT_THIS_DOES.txt)
+    │   ├── awesome-design/             # 84+ brand token systems (Stripe, Apple, Linear) (WHAT_THIS_DOES.txt)
     │   ├── 21st-dev/                   # 21st.dev Magic MCP (WHAT_THIS_DOES.txt)
     │   ├── screenshot-to-code/         # Visual screenshot-to-code replicator (WHAT_THIS_DOES.txt)
     │   └── uiverse/                    # 3,000+ pure CSS/Tailwind micro-components (WHAT_THIS_DOES.txt)
     │
     ├── browser-automation/             # Web automation, headless browsing & scraping
+    │   ├── playwright-cli/             # Microsoft Playwright CLI & Skills (WHAT_THIS_DOES.txt)
     │   ├── playwright-mcp/             # Microsoft Playwright MCP (WHAT_THIS_DOES.txt)
     │   └── apify/                      # Apify MCP (WHAT_THIS_DOES.txt)
     │

@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+Microsoft's token-efficient Playwright CLI with built-in agent skills (15,000+ stars). Unlike heavy MCP servers that bloat context windows with accessibility trees, this allows coding agents to interact with web browsers, test flows, and take screenshots via concise CLI commands.
+
+REAL EXAMPLE:
+You say: "Run playwright-cli to open http://localhost:3000, verify the login button works, and capture a screenshot."
+The agent runs `playwright-cli` directly from the terminal, keeping prompt tokens minimal while executing full browser verification.
