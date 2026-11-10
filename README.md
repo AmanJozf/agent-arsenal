@@ -11,6 +11,7 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 ### 💻 1. Coding & Engineering Playbooks (`skills/coding/`)
 | Skill | Description | Quick Install | Source | Details |
 |---|---|---|---|---|
+| [**Caveman**](./skills/coding/caveman/) | **Terse Mode & Token-Saving Suite**<br>Cuts 40-70% of output tokens by stripping conversational filler and pleasantries while keeping code exact. Includes `/caveman-commit` for minimal Conventional Commits and memory compression. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/coding/caveman/AGENTS.md -o AGENTS.md` | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | [Setup Guide](./skills/coding/caveman/README.md) |
 | [**Ponytail**](./skills/coding/ponytail/) | **Minimalist Senior Dev Mode**<br>Reduces code bloat (-53%), cuts tokens (-45%), ensures 98% risky logic is tested, and forbids premature abstraction. Includes 5 review/audit tools. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/coding/ponytail/AGENTS.md -o AGENTS.md` | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | [Setup Guide](./skills/coding/ponytail/README.md) |
 | [**Vercel Suite**](./skills/coding/vercel-suite/) | **Vercel Labs Engineering Suite (33k+ stars)**<br>Official performance rules for React 19 / Next.js (Server Components, Suspense streaming), view transitions, composition patterns, and automated deployment. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/coding/vercel-suite/AGENTS.md -o AGENTS.md` | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | [Setup Guide](./skills/coding/vercel-suite/README.md) |
 | [**Agent Skills (Addy Osmani)**](./skills/coding/agent-skills/) | **Production-Grade Engineering Skills**<br>25 battle-tested senior engineering skills by Addy Osmani (Google Chrome Lead): TDD, spec design, code review, simplification, debugging, and security. | `/plugin marketplace add addyosmani/agent-skills && /plugin install agent-skills@agent-skills` | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | [Setup Guide](./skills/coding/agent-skills/README.md) |
@@ -91,6 +92,7 @@ agent-arsenal/
 ├── .gitignore                          # Clean ignore rules
 └── skills/
     ├── coding/                         # Senior engineering, clean code & workflow rules
+    │   ├── caveman/                    # Terse mode, short commits & token savings (WHAT_THIS_DOES.txt)
     │   ├── ponytail/                   # Minimalist senior dev mode (WHAT_THIS_DOES.txt)
     │   ├── agent-skills/               # Addy Osmani's 25 production skills (WHAT_THIS_DOES.txt)
     │   └── vercel-suite/               # Vercel Labs React/Next.js engineering suite (WHAT_THIS_DOES.txt)

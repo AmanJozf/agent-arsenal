@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+The viral token-saving skill that forces AI agents into ultra-terse "smart caveman" mode. It cuts 40% to 70% of output tokens by eliminating polite filler, long introductions, and chatty summaries while keeping all code, file paths, and commands byte-for-byte exact.
+
+REAL EXAMPLE:
+You say: "Why is my Jest test failing on line 42? Use caveman mode and give me a short commit."
+The agent skips the friendly intro, explains the issue in 8 words ("Async mock unresolved. Add await."), and gives a 1-line Conventional Commit ("fix(auth): await user mock resolution").
