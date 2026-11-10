@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+Production motion design and animation rules for Framer Motion (Motion). It provides organic spring physics formulas, smooth shared-layout transitions (layoutId), scroll-linked parallax, and accessible 60fps gesture controls for React.
+
+REAL EXAMPLE:
+You say: "Add an active pill tab switcher and a 3D tilt hover effect to this card grid."
+The agent uses Framer Motion's layoutId for the sliding tab indicator and spring physics for the 3D card tilt without layout lag.

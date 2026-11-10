@@ -1,0 +1,5 @@
+WHAT THIS DOES:
+A curated web gallery and prompt resource (motionsites.ai) showcasing award-winning, animated website concepts. It provides 40+ prompt blueprints and a hosted media shelf of 50+ cinematic MP4 background videos and 3D assets to build high-end motion websites.
+
+REAL EXAMPLE:
+You need inspiration for an AI startup hero section. You visit https://motionsites.ai/ (or browse the prompt blueprints in `examples/`), copy the prompt and hosted video URL, and hand it to your coding agent to build an animated landing page.

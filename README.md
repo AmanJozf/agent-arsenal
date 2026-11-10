@@ -36,6 +36,8 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 ### 🎨 4. Design & UI Systems (`skills/design/`)
 | Skill | Description | Quick Install | Source | Details |
 |---|---|---|---|---|
+| [**UI/UX Pro Max**](./skills/design/ui-ux-pro-max/) | **#1 Design Intelligence & Search Engine (147k+ stars)**<br>Searchable database of color palettes by industry, Google Fonts pairings, UI styles (glassmorphism, brutalism), and UX anti-pattern checklists across 7 sub-skills. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/ui-ux-pro-max/AGENTS.md -o AGENTS.md` | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | [Setup Guide](./skills/design/ui-ux-pro-max/README.md) |
+| [**Framer Motion**](./skills/design/framer-motion/) | **Production React Animation Engine & Physics**<br>Pre-calibrated spring physics presets, shared layout morphing (`layoutId`), scroll-linked triggers (`useScroll`), and exit animations (`AnimatePresence`). | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/framer-motion/AGENTS.md -o AGENTS.md` | [Motion.dev](https://motion.dev/) | [Setup Guide](./skills/design/framer-motion/README.md) |
 | [**Taste Skill**](./skills/design/taste-skill/) | **Anti-Slop Art Direction & Design Engine (112k+ stars)**<br>Eliminates generic AI slop, purple blobs, and repetitive cards. Enforces real editorial typography, spacing, authentic photography, and quiet micro-interactions matching Figma and x.ai. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/taste-skill/AGENTS.md -o AGENTS.md` | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | [Setup Guide](./skills/design/taste-skill/README.md) |
 | [**Image-to-Code Skill**](./skills/design/image-to-code-skill/) | **Image-First Art Direction & Implementation**<br>Directs agents to design spacious heroes, avoid "cards-inside-cards" UI, and implement pixel-perfect visual mockups optimized for real laptop viewports. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/image-to-code-skill/AGENTS.md -o AGENTS.md` | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | [Setup Guide](./skills/design/image-to-code-skill/README.md) |
 | [**Web Design Guidelines**](./skills/design/web-design-guidelines/) | **Vercel Labs Web Interface Guidelines (33k+ stars)**<br>Audits and guides UI code against Vercel's production standards: accessibility (WCAG AA), semantic tags, touch targets, keyboard navigation, and zero layout shift. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/web-design-guidelines/AGENTS.md -o AGENTS.md` | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | [Setup Guide](./skills/design/web-design-guidelines/README.md) |
@@ -69,6 +71,16 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 
 ---
 
+## 🌐 Curated Resources & Inspiration Hubs (`resources/`)
+
+Dedicated inspiration platforms, web galleries, and design hubs to browse for high-end UI concepts, prompts, and hosted media:
+
+| Resource | Platform URL | Focus | Vault Path |
+|---|---|---|---|
+| [**MotionSites**](./resources/design-inspiration/motion-sites/) | [motionsites.ai](https://motionsites.ai/) | **Cinematic Animated Web Showcase**<br>Curated gallery of award-winning, motion-driven websites with 40+ prompt blueprints and 50+ hosted cinematic video backgrounds. | [Explore Vault](./resources/design-inspiration/motion-sites/README.md) |
+
+---
+
 ## 📂 Repository Structure
 
 ```text
@@ -90,6 +102,8 @@ agent-arsenal/
     │   └── brag/                       # Automated codebase launch video generator (WHAT_THIS_DOES.txt)
     │
     ├── design/                         # UI components, animations & design systems
+    │   ├── ui-ux-pro-max/              # #1 Design intelligence & 7 sub-skills (WHAT_THIS_DOES.txt)
+    │   ├── framer-motion/              # Spring physics & layoutId animation engine (WHAT_THIS_DOES.txt)
     │   ├── taste-skill/                # Anti-slop frontend art direction (WHAT_THIS_DOES.txt)
     │   ├── image-to-code-skill/        # Image-first visual implementation (WHAT_THIS_DOES.txt)
     │   ├── web-design-guidelines/      # Vercel Labs design audit & standards (WHAT_THIS_DOES.txt)
@@ -108,6 +122,10 @@ agent-arsenal/
     │
     └── automation/                     # IoT, hardware & device automation runbooks
         └── cleanyourtv/                # Android/Google TV Wi-Fi ADB debloater (WHAT_THIS_DOES.txt)
+│
+└── resources/                          # 🌐 Inspiration Hubs, Media Shelves & Web Galleries
+    └── design-inspiration/
+        └── motion-sites/               # motionsites.ai gallery, 40 prompts & video shelf (WHAT_THIS_DOES.txt)
 ```
 
 ---

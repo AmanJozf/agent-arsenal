@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+The #1 design intelligence skill on GitHub (147k+ stars). It equips AI agents with searchable databases for color palettes, Google Fonts pairings, UI aesthetics (glassmorphism, brutalism, minimalism), and UX anti-pattern checklists across 7 sub-skills.
+
+REAL EXAMPLE:
+You say: "Design a high-converting landing page for an AI productivity app."
+The agent queries UI/UX Pro Max for the optimal productivity color palette, pairs high-legibility Google Fonts, and builds clean UI sections without common generative mistakes.
