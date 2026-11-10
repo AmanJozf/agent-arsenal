@@ -37,6 +37,8 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 | Skill | Description | Quick Install | Source | Details |
 |---|---|---|---|---|
 | [**21st.dev**](./skills/design/21st-dev/) | **Design Engineer & UI Component Generator**<br>Marketplace of 10,000+ production React/Tailwind (shadcn-compatible) components, AI UI generation like v0, and official SVG brand logo search via MCP. | `npx @21st-dev/cli@latest init --client cursor` | [21st-dev/magic-mcp](https://github.com/21st-dev/magic-mcp) | [Setup Guide](./skills/design/21st-dev/README.md) |
+| [**Screenshot to Code**](./skills/design/screenshot-to-code/) | **Visual Frontend & Mockup Replicator (65k+ stars)**<br>Converts any UI screenshot, Figma design, or wireframe into clean, responsive HTML, React, or Vue code with Tailwind CSS matching typography, colors, and layout. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/screenshot-to-code/AGENTS.md -o AGENTS.md` | [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) | [Setup Guide](./skills/design/screenshot-to-code/README.md) |
+| [**Uiverse Galaxy**](./skills/design/uiverse/) | **Open-Source CSS & Tailwind Micro-Components (14k+ stars)**<br>Catalog of 3,000+ community UI micro-components: neon buttons, glassmorphic cards, animated loaders, and toggle switches with zero npm dependencies. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/uiverse/AGENTS.md -o AGENTS.md` | [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) | [Setup Guide](./skills/design/uiverse/README.md) |
 
 ---
 
@@ -83,7 +85,9 @@ agent-arsenal/
     │   └── brag/                       # Automated codebase launch video generator (WHAT_THIS_DOES.txt)
     │
     ├── design/                         # UI components, animations & design systems
-    │   └── 21st-dev/                   # 21st.dev Magic MCP (WHAT_THIS_DOES.txt)
+    │   ├── 21st-dev/                   # 21st.dev Magic MCP (WHAT_THIS_DOES.txt)
+    │   ├── screenshot-to-code/         # Visual screenshot-to-code replicator (WHAT_THIS_DOES.txt)
+    │   └── uiverse/                    # 3,000+ pure CSS/Tailwind micro-components (WHAT_THIS_DOES.txt)
     │
     ├── browser-automation/             # Web automation, headless browsing & scraping
     │   ├── playwright-mcp/             # Microsoft Playwright MCP (WHAT_THIS_DOES.txt)

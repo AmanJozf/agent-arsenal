@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+Provides access to over 3,000 open-source community UI micro-components (buttons, animated loaders, toggle switches, glassmorphic cards, and inputs). Every element uses pure CSS or Tailwind with zero external npm dependencies.
+
+REAL EXAMPLE:
+You say: "Add a futuristic neon loading spinner and a dark-mode toggle switch to this page."
+The agent pulls the self-contained CSS/HTML directly from Uiverse and integrates it without needing any third-party UI library.

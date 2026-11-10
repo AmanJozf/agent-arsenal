@@ -1,0 +1,7 @@
+WHAT THIS DOES:
+Converts screenshots, Figma mockups, and UI design images into clean, responsive HTML, React, or Vue code with Tailwind CSS. It extracts the layout, typography, colors, and button states to recreate the design pixel-by-pixel.
+
+REAL EXAMPLE:
+You take a screenshot of a SaaS pricing table or hero section and say:
+"Recreate this exact screenshot in React with Tailwind CSS."
+The agent inspects the image and writes a responsive component matching the original layout, colors, and hover effects.
