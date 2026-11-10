@@ -29,6 +29,7 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 |---|---|---|---|---|
 | [**Watch**](./skills/video-media/watch/) | **Video Understanding for Coding Agents**<br>Extracts timestamped frames and transcripts from YouTube, Loom, or local MP4s with `/watch`. Allows agents to recreate UI and isolate bugs directly from video. | `/plugin marketplace add bradautomates/claude-video && /plugin install watch@claude-video` | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | [Setup Guide](./skills/video-media/watch/README.md) |
 | [**HyperFrames**](./skills/video-media/hyperframes/) | **HTML-to-Video Engine for Agents**<br>Enables agents to write standard HTML/CSS/GSAP and deterministically render frame-by-frame MP4/WebM videos, launch films, animations, and social clips. Includes 9 sub-skills. | `npx skills add heygen-com/hyperframes` | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | [Setup Guide](./skills/video-media/hyperframes/README.md) |
+| [**Brag**](./skills/video-media/brag/) | **Automated Launch Video Generator**<br>Inspects your codebase and UI to automatically compose, storyboard, and render an animated product demo video with music and narration. | `/plugin marketplace add latent-spaces/brag && /plugin install brag@brag` | [latent-spaces/brag](https://github.com/latent-spaces/brag) | [Setup Guide](./skills/video-media/brag/README.md) |
 
 ---
 
@@ -54,6 +55,13 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 
 ---
 
+### ⚙️ 7. Device Automation & Debloat (`skills/automation/`)
+| Skill | Description | Quick Install | Source | Details |
+|---|---|---|---|---|
+| [**CleanYourTV**](./skills/automation/cleanyourtv/) | **Smart TV Debloater & Ad-Removal**<br>Connects your AI agent to any Android TV / Google TV over Wi-Fi via ADB to safely disable ads, telemetry, and sponsored rows with zero root required. | `python tools/check.py <TV_IP_ADDRESS>` | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | [Setup Guide](./skills/automation/cleanyourtv/README.md) |
+
+---
+
 ## 📂 Repository Structure
 
 ```text
@@ -71,7 +79,8 @@ agent-arsenal/
     │
     ├── video-media/                    # Video understanding & code-to-video rendering
     │   ├── watch/                      # Claude Video /watch (WHAT_THIS_DOES.txt)
-    │   └── hyperframes/                # HeyGen's HTML/CSS-to-video engine (WHAT_THIS_DOES.txt)
+    │   ├── hyperframes/                # HeyGen's HTML/CSS-to-video engine (WHAT_THIS_DOES.txt)
+    │   └── brag/                       # Automated codebase launch video generator (WHAT_THIS_DOES.txt)
     │
     ├── design/                         # UI components, animations & design systems
     │   └── 21st-dev/                   # 21st.dev Magic MCP (WHAT_THIS_DOES.txt)
@@ -80,8 +89,11 @@ agent-arsenal/
     │   ├── playwright-mcp/             # Microsoft Playwright MCP (WHAT_THIS_DOES.txt)
     │   └── apify/                      # Apify MCP (WHAT_THIS_DOES.txt)
     │
-    └── memory/                         # Continuous cross-chat personal memory
-        └── mem0/                       # Persistent agent memory layer (WHAT_THIS_DOES.txt)
+    ├── memory/                         # Continuous cross-chat personal memory
+    │   └── mem0/                       # Persistent agent memory layer (WHAT_THIS_DOES.txt)
+    │
+    └── automation/                     # IoT, hardware & device automation runbooks
+        └── cleanyourtv/                # Android/Google TV Wi-Fi ADB debloater (WHAT_THIS_DOES.txt)
 ```
 
 ---

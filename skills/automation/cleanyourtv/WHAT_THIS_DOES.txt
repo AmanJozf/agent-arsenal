@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+Connects your AI agent to any Android TV or Google TV over Wi-Fi via ADB to safely disable ads, purge telemetry, and replace cluttered home screens with a clean Apple TV-style layout.
+
+REAL EXAMPLE:
+You paste the prompt from `PROMPT.md` into your agent with your TV's IP address.
+The agent connects over your home Wi-Fi, creates a safe backup, disables all sponsored banner packages, and gives you a clean TV interface with zero ads.
