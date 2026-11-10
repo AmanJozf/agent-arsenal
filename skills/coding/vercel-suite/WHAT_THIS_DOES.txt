@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+The official Vercel Labs engineering skills suite (33k+ stars). It equips AI agents with 45 React 19 / Next.js performance rules, smooth page-to-page View Transitions, clean component composition patterns, and automated deployment to Vercel.
+
+REAL EXAMPLE:
+You say: "Optimize this Next.js dashboard for speed and add smooth page transitions."
+The agent applies `react-best-practices` to convert components to React Server Components with Suspense streaming, and implements `react-view-transitions` for zero-flicker routing.

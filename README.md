@@ -12,6 +12,7 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 | Skill | Description | Quick Install | Source | Details |
 |---|---|---|---|---|
 | [**Ponytail**](./skills/coding/ponytail/) | **Minimalist Senior Dev Mode**<br>Reduces code bloat (-53%), cuts tokens (-45%), ensures 98% risky logic is tested, and forbids premature abstraction. Includes 5 review/audit tools. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/coding/ponytail/AGENTS.md -o AGENTS.md` | [dietrichgebert/ponytail](https://github.com/dietrichgebert/ponytail) | [Setup Guide](./skills/coding/ponytail/README.md) |
+| [**Vercel Suite**](./skills/coding/vercel-suite/) | **Vercel Labs Engineering Suite (33k+ stars)**<br>Official performance rules for React 19 / Next.js (Server Components, Suspense streaming), view transitions, composition patterns, and automated deployment. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/coding/vercel-suite/AGENTS.md -o AGENTS.md` | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | [Setup Guide](./skills/coding/vercel-suite/README.md) |
 | [**Agent Skills (Addy Osmani)**](./skills/coding/agent-skills/) | **Production-Grade Engineering Skills**<br>25 battle-tested senior engineering skills by Addy Osmani (Google Chrome Lead): TDD, spec design, code review, simplification, debugging, and security. | `/plugin marketplace add addyosmani/agent-skills && /plugin install agent-skills@agent-skills` | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | [Setup Guide](./skills/coding/agent-skills/README.md) |
 
 ---
@@ -42,6 +43,7 @@ A curated, personal catalog of high-impact AI coding skills, agent prompt rules,
 | [**Image-to-Code Skill**](./skills/design/image-to-code-skill/) | **Image-First Art Direction & Implementation**<br>Directs agents to design spacious heroes, avoid "cards-inside-cards" UI, and implement pixel-perfect visual mockups optimized for real laptop viewports. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/image-to-code-skill/AGENTS.md -o AGENTS.md` | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | [Setup Guide](./skills/design/image-to-code-skill/README.md) |
 | [**Web Design Guidelines**](./skills/design/web-design-guidelines/) | **Vercel Labs Web Interface Guidelines (33k+ stars)**<br>Audits and guides UI code against Vercel's production standards: accessibility (WCAG AA), semantic tags, touch targets, keyboard navigation, and zero layout shift. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/web-design-guidelines/AGENTS.md -o AGENTS.md` | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | [Setup Guide](./skills/design/web-design-guidelines/README.md) |
 | [**Awesome Design MD**](./skills/design/awesome-design/) | **84+ Iconic Tech Brand Design Systems (126k+ stars)**<br>Complete token contracts (`DESIGN.md`) for Stripe, Linear, Apple, Vercel, Supabase, Tesla, Notion, Raycast, and Figma so agents build authentic brand UIs. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/awesome-design/AGENTS.md -o AGENTS.md` | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | [Setup Guide](./skills/design/awesome-design/README.md) |
+| [**img2threejs**](./skills/design/img2threejs/) | **Image-to-Procedural 3D Three.js (21k+ stars)**<br>Reconstructs any 2D object image into an interactive, code-only Three.js 3D model with PBR materials, orbit controls, and studio lighting—no external 3D files needed. | `npx --yes img2threejs@latest install` | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | [Setup Guide](./skills/design/img2threejs/README.md) |
 | [**21st.dev**](./skills/design/21st-dev/) | **Design Engineer & UI Component Generator**<br>Marketplace of 10,000+ production React/Tailwind (shadcn-compatible) components, AI UI generation like v0, and official SVG brand logo search via MCP. | `npx @21st-dev/cli@latest init --client cursor` | [21st-dev/magic-mcp](https://github.com/21st-dev/magic-mcp) | [Setup Guide](./skills/design/21st-dev/README.md) |
 | [**Screenshot to Code**](./skills/design/screenshot-to-code/) | **Visual Frontend & Mockup Replicator (65k+ stars)**<br>Converts any UI screenshot, Figma design, or wireframe into clean, responsive HTML, React, or Vue code with Tailwind CSS matching typography, colors, and layout. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/screenshot-to-code/AGENTS.md -o AGENTS.md` | [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) | [Setup Guide](./skills/design/screenshot-to-code/README.md) |
 | [**Uiverse Galaxy**](./skills/design/uiverse/) | **Open-Source CSS & Tailwind Micro-Components (14k+ stars)**<br>Catalog of 3,000+ community UI micro-components: neon buttons, glassmorphic cards, animated loaders, and toggle switches with zero npm dependencies. | `curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/uiverse/AGENTS.md -o AGENTS.md` | [uiverse-io/galaxy](https://github.com/uiverse-io/galaxy) | [Setup Guide](./skills/design/uiverse/README.md) |
@@ -90,7 +92,8 @@ agent-arsenal/
 └── skills/
     ├── coding/                         # Senior engineering, clean code & workflow rules
     │   ├── ponytail/                   # Minimalist senior dev mode (WHAT_THIS_DOES.txt)
-    │   └── agent-skills/               # Addy Osmani's 25 production skills (WHAT_THIS_DOES.txt)
+    │   ├── agent-skills/               # Addy Osmani's 25 production skills (WHAT_THIS_DOES.txt)
+    │   └── vercel-suite/               # Vercel Labs React/Next.js engineering suite (WHAT_THIS_DOES.txt)
     │
     ├── gateways/                       # Multi-provider routing, proxy servers & token pools
     │   ├── omniroute/                  # 375+ providers & RTK compression (WHAT_THIS_DOES.txt)
@@ -102,6 +105,7 @@ agent-arsenal/
     │   └── brag/                       # Automated codebase launch video generator (WHAT_THIS_DOES.txt)
     │
     ├── design/                         # UI components, animations & design systems
+    │   ├── img2threejs/                # Procedural image-to-3D Three.js generator (WHAT_THIS_DOES.txt)
     │   ├── ui-ux-pro-max/              # #1 Design intelligence & 7 sub-skills (WHAT_THIS_DOES.txt)
     │   ├── framer-motion/              # Spring physics & layoutId animation engine (WHAT_THIS_DOES.txt)
     │   ├── taste-skill/                # Anti-slop frontend art direction (WHAT_THIS_DOES.txt)

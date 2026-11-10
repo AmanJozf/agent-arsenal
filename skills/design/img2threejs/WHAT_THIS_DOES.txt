@@ -1,0 +1,7 @@
+WHAT THIS DOES:
+The viral image-to-3D procedural reconstruction skill (21k+ stars). It turns any 2D reference photo of an object into an interactive, code-only Three.js 3D model with realistic lighting, PBR materials, and orbit controls—no external 3D files needed.
+
+REAL EXAMPLE:
+You provide a photo of a retro camera or sneaker and say:
+"Reconstruct this camera as an interactive 3D Three.js model."
+The agent inspects the photo, writes procedural 3D geometries and shaders in Three.js, and renders an interactive 3D model you can rotate and zoom in your browser.
