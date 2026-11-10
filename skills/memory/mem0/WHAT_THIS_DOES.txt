@@ -3,4 +3,4 @@ A continuous memory layer that stores your personal coding preferences, habits, 
 
 REAL EXAMPLE:
 You tell your agent once: "Always write short, single-line Git commit messages."
-Even 50 messages later—or in a brand new chat next week—the agent still remembers and automatically writes single-line commits.
+Even 50 messages later - or in a brand new chat next week - the agent still remembers and automatically writes single-line commits.
