@@ -10,7 +10,7 @@ Ponytail puts a seasoned, pragmatic senior developer into your AI coding assista
 
 ```bash
 # 1. Copy the universal rules into your project root:
-curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/ponytail/AGENTS.md -o AGENTS.md
+curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/coding/ponytail/AGENTS.md -o AGENTS.md
 ```
 *(Or in Claude Code / Codex / Copilot, run: `/plugin marketplace add DietrichGebert/ponytail` followed by `/plugin install ponytail@ponytail`)*
 
@@ -36,7 +36,7 @@ curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/
 ### 2. Antigravity / Cursor / Windsurf / Any `AGENTS.md` Compatible Tool
 Simply place [`AGENTS.md`](./AGENTS.md) in your workspace root or link it in your agent system prompt:
 ```bash
-cp skills/ponytail/AGENTS.md ./AGENTS.md
+cp skills/coding/ponytail/AGENTS.md ./AGENTS.md
 ```
 
 ### 3. OpenCode / Kilo
