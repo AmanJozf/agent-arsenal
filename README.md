@@ -97,6 +97,7 @@ curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/
 | Skill | Focus & Core Value | Key Highlights | Links |
 |---|---|---|:---:|
 | [**HyperFrames**](./skills/video-media/hyperframes/) | **HTML/GSAP-to-Video Engine** | Render frame-accurate MP4/WebM videos, launch clips, animations, and kinetic typography in pure code. | [Guide](./skills/video-media/hyperframes/README.md) · [Source ↗](https://github.com/heygen-com/hyperframes) |
+| [**VoiceStudio**](./skills/video-media/voicestudio/) | **Local-First Voice Studio & ElevenLabs Alternative** | Instant voice cloning, zero-cost TTS, multi-speaker audiobooks, video dubbing, Whisper STT, and built-in MCP server. | [Guide](./skills/video-media/voicestudio/README.md) · [Source ↗](https://github.com/debpalash/VoiceStudio) |
 | [**Watch**](./skills/video-media/watch/) | **Video Understanding for Agents** | Pulls timestamped frames and transcripts from YouTube, Loom, or local video to diagnose UI bugs. | [Guide](./skills/video-media/watch/README.md) · [Source ↗](https://github.com/bradautomates/claude-video) |
 | [**Brag**](./skills/video-media/brag/) | **Automated Launch Videos** | Inspects your codebase and UI to compose and render an animated product demo video automatically. | [Guide](./skills/video-media/brag/README.md) · [Source ↗](https://github.com/latent-spaces/brag) |
 
@@ -136,7 +137,7 @@ agent-arsenal/
 │   ├── coding/             # Ponytail, Caveman, Vercel Suite, Addy Osmani skills
 │   ├── design/             # Taste-Skill, UI/UX Pro Max, Brand Tokens, Framer Motion
 │   ├── browser-automation/ # Playwright CLI/MCP, Apify Scrapers
-│   ├── video-media/        # HyperFrames, Watch, Brag Video Generator
+│   ├── video-media/        # HyperFrames, Watch, Brag Video Generator, VoiceStudio
 │   ├── gateways/           # OmniRoute & FreeLLMAPI multi-model routers
 │   ├── memory/             # Mem0 continuous memory layer
 │   └── automation/         # CleanYourTV device debloater

@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+A local-first, open-source alternative to ElevenLabs for instant voice cloning, zero-cost AI speech synthesis, multi-speaker audiobooks, video dubbing, and Whisper transcription. Runs offline on your GPU/CPU with built-in MCP server and OpenAI-compatible /v1 endpoints.
+
+REAL EXAMPLE:
+You have a short reference audio clip and say:
+"/voicestudio Clone the speaker from voice_sample.wav and generate high-fidelity narration for script.txt using the local model."
