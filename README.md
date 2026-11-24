@@ -11,7 +11,7 @@ A battle-tested personal catalog of high-impact AI coding skills, agent prompt r
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/AmanJozf/agent-arsenal/pulls)
 [![Compatible With](https://img.shields.io/badge/Agents-Claude%20Code%20%7C%20Antigravity%20%7C%20Cursor%20%7C%20Codex-purple)](README.md)
-[![Skills Count](https://img.shields.io/badge/Curated%20Skills-145+-orange.svg)](skills/)
+[![Skills Count](https://img.shields.io/badge/Curated%20Skills-150+-orange.svg)](skills/)
 
 <br/>
 
@@ -121,6 +121,15 @@ curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/
 
 ---
 
+### 🎓 7. Academic Research & Thesis Preparation (`skills/academic/`)
+
+| Skill | Focus & Core Value | Key Highlights | Links |
+|---|---|---|:---:|
+| [**Academic Research Skills**](./skills/academic/academic-research-skills/) | **Full Academic & Paper Lifecycle** | 5-skill suite for deep research, literature reviews, thesis drafting, and multi-perspective peer review simulation. | [Guide](./skills/academic/academic-research-skills/README.md) · [Source ↗](https://github.com/Imbad0202/academic-research-skills) |
+| [**Academic Research Agent**](./skills/academic/academic-research-agent/) | **CS Master's & PhD Technical Research** | Formal problem definition, Research Reality Gates, novelty validation, and experiment planning for engineering degrees. | [Guide](./skills/academic/academic-research-agent/README.md) · [Source ↗](https://github.com/ngtiendong/Academic-Research-Agent-Skill) |
+
+---
+
 ## 🌐 Inspiration Vaults (`resources/`)
 
 - [**MotionSites Showcase**](./resources/design-inspiration/motion-sites/): Curated gallery of award-winning, motion-driven websites with 40+ prompt blueprints and 50+ hosted cinematic video backgrounds.
@@ -140,7 +149,8 @@ agent-arsenal/
 │   ├── video-media/        # HyperFrames, Watch, Brag Video Generator, VoiceStudio
 │   ├── gateways/           # OmniRoute & FreeLLMAPI multi-model routers
 │   ├── memory/             # Mem0 continuous memory layer
-│   └── automation/         # CleanYourTV device debloater
+│   ├── automation/         # CleanYourTV device debloater
+│   └── academic/           # Academic Research Skills suite & CS Master's/PhD Agent
 └── resources/              # Design inspiration vaults and video assets
 ```
 

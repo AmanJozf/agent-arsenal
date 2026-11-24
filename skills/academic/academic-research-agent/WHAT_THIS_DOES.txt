@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+A human-guided research agent skill designed specifically for Master's and PhD research in Computer Science, AI, and Engineering. Focuses on formal problem definition, novelty gates, research reality checks, and experiment planning to ensure papers are grounded in verifiable technical proof.
+
+REAL EXAMPLE:
+You say: "I need to plan the evaluation benchmarks for my thesis problem-to-service mapping."
+The agent invokes the Research Reality Gate to audit experimental feasibility, defines clear baselines and evaluation metrics, and formalizes the mathematical problem statement.

@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+The comprehensive academic research and paper-writing suite for AI agents (Claude Code, Antigravity, Codex). Bundles 5 specialized sub-skills: Deep Research (13-agent literature surveys), Academic Paper (drafting, structuring, thesis chapters), Academic Paper Reviewer (multi-perspective peer review), Academic Pipeline (10-stage end-to-end orchestrator), and SR Screener (systematic review screening).
+
+REAL EXAMPLE:
+You say: "Draft my Master's thesis chapter on system architecture for the Problem-to-Service platform."
+The agent invokes `academic-paper` to structure formal requirements, API workflows, and system diagrams adhering to academic standards, then runs `academic-paper-reviewer` to audit claims against cited literature.
