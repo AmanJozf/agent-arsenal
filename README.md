@@ -56,67 +56,67 @@ curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/
 
 ### 💻 1. Coding & Senior Engineering (`skills/coding/`)
 
-| Skill | Focus & Core Value | Key Highlights | Guide |
+| Skill | Focus & Core Value | Key Highlights | Links |
 |---|---|---|:---:|
-| [**Ponytail**](./skills/coding/ponytail/) | **Minimalist Senior Dev Mode** | Smallest complete diff, -53% code bloat, 98% test coverage on critical logic, forbids premature abstractions. | [Guide](./skills/coding/ponytail/README.md) |
-| [**Caveman**](./skills/coding/caveman/) | **Terse Mode & Token-Saving Suite** | Cuts 40–70% output tokens by stripping conversational filler while keeping code exact. Includes `/caveman-commit`. | [Guide](./skills/coding/caveman/README.md) |
-| [**Vercel Suite**](./skills/coding/vercel-suite/) | **React 19 & Next.js Best Practices** | Production rules for Server Components, Suspense streaming, view transitions, and composition patterns. | [Guide](./skills/coding/vercel-suite/README.md) |
-| [**Agent Skills**](./skills/coding/agent-skills/) | **Production-Grade Engineering Skills** | 25 battle-tested senior engineering skills by Addy Osmani: TDD, spec design, code review, debugging, and security. | [Guide](./skills/coding/agent-skills/README.md) |
+| [**Ponytail**](./skills/coding/ponytail/) | **Minimalist Senior Dev Mode** | Smallest complete diff, -53% code bloat, 98% test coverage on critical logic, forbids premature abstractions. | [Guide](./skills/coding/ponytail/README.md) · [Source ↗](https://github.com/dietrichgebert/ponytail) |
+| [**Caveman**](./skills/coding/caveman/) | **Terse Mode & Token-Saving Suite** | Cuts 40–70% output tokens by stripping conversational filler while keeping code exact. Includes `/caveman-commit`. | [Guide](./skills/coding/caveman/README.md) · [Source ↗](https://github.com/JuliusBrussee/caveman) |
+| [**Vercel Suite**](./skills/coding/vercel-suite/) | **React 19 & Next.js Best Practices** | Production rules for Server Components, Suspense streaming, view transitions, and composition patterns. | [Guide](./skills/coding/vercel-suite/README.md) · [Source ↗](https://github.com/vercel-labs/agent-skills) |
+| [**Agent Skills**](./skills/coding/agent-skills/) | **Production-Grade Engineering Skills** | 25 battle-tested senior engineering skills by Addy Osmani: TDD, spec design, code review, debugging, and security. | [Guide](./skills/coding/agent-skills/README.md) · [Source ↗](https://github.com/addyosmani/agent-skills) |
 
 ---
 
 ### 🎨 2. Design & Anti-Slop UI (`skills/design/`)
 
-| Skill | Focus & Core Value | Key Highlights | Guide |
+| Skill | Focus & Core Value | Key Highlights | Links |
 |---|---|---|:---:|
-| [**Taste Skill**](./skills/design/taste-skill/) | **Anti-Slop Art Direction & Aesthetics** | Replaces generic AI purple blobs and repetitive cards with authentic editorial typography, spacing, and contrast. | [Guide](./skills/design/taste-skill/README.md) |
-| [**UI/UX Pro Max**](./skills/design/ui-ux-pro-max/) | **Design Intelligence Database** | Searchable system for product color palettes by industry, font pairings, UI styles, and UX anti-pattern checklists. | [Guide](./skills/design/ui-ux-pro-max/README.md) |
-| [**Awesome Design MD**](./skills/design/awesome-design/) | **84+ Tech Brand Design Systems** | Complete token contracts (`DESIGN.md`) for Stripe, Linear, Apple, Vercel, Supabase, Tesla, Notion, and Raycast. | [Guide](./skills/design/awesome-design/README.md) |
-| [**Framer Motion**](./skills/design/framer-motion/) | **Production React Animation Engine** | Pre-calibrated spring physics, shared layout transitions (`layoutId`), scroll triggers, and exit animations. | [Guide](./skills/design/framer-motion/README.md) |
-| [**Web Design Guidelines**](./skills/design/web-design-guidelines/) | **Vercel Interface Standards** | Automated audit against production standards: accessibility (WCAG AA), semantic tags, touch targets, zero layout shift. | [Guide](./skills/design/web-design-guidelines/README.md) |
-| [**21st.dev**](./skills/design/21st-dev/) | **Component Generator & Logo Search** | 10,000+ shadcn-compatible React components and official SVG brand logos via Magic MCP. | [Guide](./skills/design/21st-dev/README.md) |
-| [**Screenshot to Code**](./skills/design/screenshot-to-code/) | **Visual Mockup Replicator** | Converts screenshots, Figma mockups, and wireframes into clean, responsive HTML/React Tailwind code. | [Guide](./skills/design/screenshot-to-code/README.md) |
-| [**Uiverse Galaxy**](./skills/design/uiverse/) | **Zero-Dependency Micro-Components** | 3,000+ pure CSS & Tailwind buttons, switches, animated loaders, and glassmorphic cards. | [Guide](./skills/design/uiverse/README.md) |
-| [**img2threejs**](./skills/design/img2threejs/) | **Procedural 3D Three.js Generator** | Turns 2D object images into interactive, code-only Three.js 3D models with PBR materials and studio lighting. | [Guide](./skills/design/img2threejs/README.md) |
-| [**Image-to-Code**](./skills/design/image-to-code-skill/) | **Spacious Hero & Viewport Layouts** | Enforces clean viewport hierarchy, avoiding cluttered card-in-card nesting. | [Guide](./skills/design/image-to-code-skill/README.md) |
+| [**Taste Skill**](./skills/design/taste-skill/) | **Anti-Slop Art Direction & Aesthetics** | Replaces generic AI purple blobs and repetitive cards with authentic editorial typography, spacing, and contrast. | [Guide](./skills/design/taste-skill/README.md) · [Source ↗](https://github.com/Leonxlnx/taste-skill) |
+| [**UI/UX Pro Max**](./skills/design/ui-ux-pro-max/) | **Design Intelligence Database** | Searchable system for product color palettes by industry, font pairings, UI styles, and UX anti-pattern checklists. | [Guide](./skills/design/ui-ux-pro-max/README.md) · [Source ↗](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+| [**Awesome Design MD**](./skills/design/awesome-design/) | **84+ Tech Brand Design Systems** | Complete token contracts (`DESIGN.md`) for Stripe, Linear, Apple, Vercel, Supabase, Tesla, Notion, and Raycast. | [Guide](./skills/design/awesome-design/README.md) · [Source ↗](https://github.com/VoltAgent/awesome-design-md) |
+| [**Framer Motion**](./skills/design/framer-motion/) | **Production React Animation Engine** | Pre-calibrated spring physics, shared layout transitions (`layoutId`), scroll triggers, and exit animations. | [Guide](./skills/design/framer-motion/README.md) · [Source ↗](https://motion.dev/) |
+| [**Web Design Guidelines**](./skills/design/web-design-guidelines/) | **Vercel Interface Standards** | Automated audit against production standards: accessibility (WCAG AA), semantic tags, touch targets, zero layout shift. | [Guide](./skills/design/web-design-guidelines/README.md) · [Source ↗](https://github.com/vercel-labs/agent-skills) |
+| [**21st.dev**](./skills/design/21st-dev/) | **Component Generator & Logo Search** | 10,000+ shadcn-compatible React components and official SVG brand logos via Magic MCP. | [Guide](./skills/design/21st-dev/README.md) · [Source ↗](https://github.com/21st-dev/magic-mcp) |
+| [**Screenshot to Code**](./skills/design/screenshot-to-code/) | **Visual Mockup Replicator** | Converts screenshots, Figma mockups, and wireframes into clean, responsive HTML/React Tailwind code. | [Guide](./skills/design/screenshot-to-code/README.md) · [Source ↗](https://github.com/abi/screenshot-to-code) |
+| [**Uiverse Galaxy**](./skills/design/uiverse/) | **Zero-Dependency Micro-Components** | 3,000+ pure CSS & Tailwind buttons, switches, animated loaders, and glassmorphic cards. | [Guide](./skills/design/uiverse/README.md) · [Source ↗](https://github.com/uiverse-io/galaxy) |
+| [**img2threejs**](./skills/design/img2threejs/) | **Procedural 3D Three.js Generator** | Turns 2D object images into interactive, code-only Three.js 3D models with PBR materials and studio lighting. | [Guide](./skills/design/img2threejs/README.md) · [Source ↗](https://github.com/img2threejs/img2threejs) |
+| [**Image-to-Code**](./skills/design/image-to-code-skill/) | **Spacious Hero & Viewport Layouts** | Enforces clean viewport hierarchy, avoiding cluttered card-in-card nesting. | [Guide](./skills/design/image-to-code-skill/README.md) · [Source ↗](https://github.com/Leonxlnx/taste-skill) |
 
 ---
 
 ### 🌐 3. Browser Automation & Scraping (`skills/browser-automation/`)
 
-| Skill | Focus & Core Value | Key Highlights | Guide |
+| Skill | Focus & Core Value | Key Highlights | Links |
 |---|---|---|:---:|
-| [**Playwright CLI**](./skills/browser-automation/playwright-cli/) | **Token-Efficient Browser Testing** | Microsoft CLI-based browser testing and screenshots without bloating agent context with accessibility trees. | [Guide](./skills/browser-automation/playwright-cli/README.md) |
-| [**Playwright MCP**](./skills/browser-automation/playwright-mcp/) | **Direct Browser Control Protocol** | Click elements, fill forms, navigate pages, and capture screenshots directly via MCP server. | [Guide](./skills/browser-automation/playwright-mcp/README.md) |
-| [**Apify MCP**](./skills/browser-automation/apify/) | **Web Scraping & Cloud Actors** | Extract clean data from any site, search Google in real-time, and run 1,500+ pre-built cloud scrapers safely. | [Guide](./skills/browser-automation/apify/README.md) |
+| [**Playwright CLI**](./skills/browser-automation/playwright-cli/) | **Token-Efficient Browser Testing** | Microsoft CLI-based browser testing and screenshots without bloating agent context with accessibility trees. | [Guide](./skills/browser-automation/playwright-cli/README.md) · [Source ↗](https://github.com/microsoft/playwright-cli) |
+| [**Playwright MCP**](./skills/browser-automation/playwright-mcp/) | **Direct Browser Control Protocol** | Click elements, fill forms, navigate pages, and capture screenshots directly via MCP server. | [Guide](./skills/browser-automation/playwright-mcp/README.md) · [Source ↗](https://github.com/microsoft/playwright-mcp) |
+| [**Apify MCP**](./skills/browser-automation/apify/) | **Web Scraping & Cloud Actors** | Extract clean data from any site, search Google in real-time, and run 1,500+ pre-built cloud scrapers safely. | [Guide](./skills/browser-automation/apify/README.md) · [Source ↗](https://github.com/apify/apify-mcp-server) |
 
 ---
 
 ### 🎬 4. Video & Media Generation (`skills/video-media/`)
 
-| Skill | Focus & Core Value | Key Highlights | Guide |
+| Skill | Focus & Core Value | Key Highlights | Links |
 |---|---|---|:---:|
-| [**HyperFrames**](./skills/video-media/hyperframes/) | **HTML/GSAP-to-Video Engine** | Render frame-accurate MP4/WebM videos, launch clips, animations, and kinetic typography in pure code. | [Guide](./skills/video-media/hyperframes/README.md) |
-| [**Watch**](./skills/video-media/watch/) | **Video Understanding for Agents** | Pulls timestamped frames and transcripts from YouTube, Loom, or local video to diagnose UI bugs. | [Guide](./skills/video-media/watch/README.md) |
-| [**Brag**](./skills/video-media/brag/) | **Automated Launch Videos** | Inspects your codebase and UI to compose and render an animated product demo video automatically. | [Guide](./skills/video-media/brag/README.md) |
+| [**HyperFrames**](./skills/video-media/hyperframes/) | **HTML/GSAP-to-Video Engine** | Render frame-accurate MP4/WebM videos, launch clips, animations, and kinetic typography in pure code. | [Guide](./skills/video-media/hyperframes/README.md) · [Source ↗](https://github.com/heygen-com/hyperframes) |
+| [**Watch**](./skills/video-media/watch/) | **Video Understanding for Agents** | Pulls timestamped frames and transcripts from YouTube, Loom, or local video to diagnose UI bugs. | [Guide](./skills/video-media/watch/README.md) · [Source ↗](https://github.com/bradautomates/claude-video) |
+| [**Brag**](./skills/video-media/brag/) | **Automated Launch Videos** | Inspects your codebase and UI to compose and render an animated product demo video automatically. | [Guide](./skills/video-media/brag/README.md) · [Source ↗](https://github.com/latent-spaces/brag) |
 
 ---
 
 ### 🌐 5. Gateways & Token Optimization (`skills/gateways/`)
 
-| Skill | Focus & Core Value | Key Highlights | Guide |
+| Skill | Focus & Core Value | Key Highlights | Links |
 |---|---|---|:---:|
-| [**OmniRoute**](./skills/gateways/omniroute/) | **Multi-Provider AI Gateway & Router** | One OpenAI-compatible endpoint for 375+ providers & 1,400+ models with auto-fallback and RTK compression. | [Guide](./skills/gateways/omniroute/README.md) |
-| [**FreeLLMAPI**](./skills/gateways/freellmapi/) | **Free LLM Gateway Pool** | Aggregates 7.4B tokens/mo across 34 free providers behind a single unified endpoint. | [Guide](./skills/gateways/freellmapi/README.md) |
+| [**OmniRoute**](./skills/gateways/omniroute/) | **Multi-Provider AI Gateway & Router** | One OpenAI-compatible endpoint for 375+ providers & 1,400+ models with auto-fallback and RTK compression. | [Guide](./skills/gateways/omniroute/README.md) · [Source ↗](https://github.com/cheaper-inference/OmniRoute) |
+| [**FreeLLMAPI**](./skills/gateways/freellmapi/) | **Free LLM Gateway Pool** | Aggregates 7.4B tokens/mo across 34 free providers behind a single unified endpoint. | [Guide](./skills/gateways/freellmapi/README.md) · [Source ↗](https://github.com/tashfeenahmed/freellmapi) |
 
 ---
 
 ### 🧠 6. Memory & Hardware Automation (`skills/memory/`, `skills/automation/`)
 
-| Skill | Focus & Core Value | Key Highlights | Guide |
+| Skill | Focus & Core Value | Key Highlights | Links |
 |---|---|---|:---:|
-| [**Mem0**](./skills/memory/mem0/) | **Persistent Cross-Session Memory** | Remembers your personal coding preferences, habits, and stack requirements across all chats. | [Guide](./skills/memory/mem0/README.md) |
-| [**CleanYourTV**](./skills/automation/cleanyourtv/) | **Smart TV Debloater & Ad Cleaner** | Connects via Wi-Fi ADB to Android TV / Google TV to disable ads and manufacturer telemetry safely. | [Guide](./skills/automation/cleanyourtv/README.md) |
+| [**Mem0**](./skills/memory/mem0/) | **Persistent Cross-Session Memory** | Remembers your personal coding preferences, habits, and stack requirements across all chats. | [Guide](./skills/memory/mem0/README.md) · [Source ↗](https://github.com/mem0ai/mem0) |
+| [**CleanYourTV**](./skills/automation/cleanyourtv/) | **Smart TV Debloater & Ad Cleaner** | Connects via Wi-Fi ADB to Android TV / Google TV to disable ads and manufacturer telemetry safely. | [Guide](./skills/automation/cleanyourtv/README.md) · [Source ↗](https://github.com/Gathin23/cleanyourtv) |
 
 ---
 
