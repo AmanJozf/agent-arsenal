@@ -34,6 +34,9 @@ curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/
 
 # 3. Grab Taste Skill (Anti-Slop Frontend — editorial design, no purple blobs):
 curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/taste-skill/AGENTS.md -o AGENTS.md
+
+# 4. Grab Unslop (9-Pass Anti-Slop Redline Engine — quiets chrome, fixes AI tells):
+curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/design/unslop/AGENTS.md -o AGENTS.md
 ```
 
 *(For Claude Code, Cursor, or Codex CLI native marketplace commands, check each skill's dedicated folder guide).*
@@ -70,6 +73,7 @@ curl -fsSL https://raw.githubusercontent.com/AmanJozf/agent-arsenal/main/skills/
 | Skill | Focus & Core Value | Key Highlights | Links |
 |---|---|---|:---:|
 | [**Taste Skill**](./skills/design/taste-skill/) | **Anti-Slop Art Direction & Aesthetics** | Replaces generic AI purple blobs and repetitive cards with authentic editorial typography, spacing, and contrast. | [Guide](./skills/design/taste-skill/README.md) · [Source ↗](https://github.com/Leonxlnx/taste-skill) |
+| [**Unslop**](./skills/design/unslop/) | **9-Pass Anti-Slop UI Redline Engine** | Eliminates formulaic AI tells (purple blobs, glowing borders, emoji badges) via structured 9-pass refinement. | [Guide](./skills/design/unslop/README.md) · [Source ↗](https://github.com/heydamir/unslop) |
 | [**UI/UX Pro Max**](./skills/design/ui-ux-pro-max/) | **Design Intelligence Database** | Searchable system for product color palettes by industry, font pairings, UI styles, and UX anti-pattern checklists. | [Guide](./skills/design/ui-ux-pro-max/README.md) · [Source ↗](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 | [**Awesome Design MD**](./skills/design/awesome-design/) | **84+ Tech Brand Design Systems** | Complete token contracts (`DESIGN.md`) for Stripe, Linear, Apple, Vercel, Supabase, Tesla, Notion, and Raycast. | [Guide](./skills/design/awesome-design/README.md) · [Source ↗](https://github.com/VoltAgent/awesome-design-md) |
 | [**Framer Motion**](./skills/design/framer-motion/) | **Production React Animation Engine** | Pre-calibrated spring physics, shared layout transitions (`layoutId`), scroll triggers, and exit animations. | [Guide](./skills/design/framer-motion/README.md) · [Source ↗](https://motion.dev/) |

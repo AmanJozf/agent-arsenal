@@ -1,0 +1,6 @@
+WHAT THIS DOES:
+The viral UI unslopping engine by Damir Sokolovsky that turns generic, vibecoded AI interfaces into human-crafted web products with their own identity. It audits screens for AI slop tells (purple gradient blobs, glowing neon borders, random emoji tags, "New ✨" chips) and executes a strict 9-pass redline overhaul (spacing, color, icons, copy, typography, layout, details, visuals, and motion).
+
+REAL EXAMPLE:
+You say: "Unslop this AI-generated dashboard so it stops looking like an AI template."
+The agent inspects the screen, proposes a dedicated brand direction, and refines the interface across all 9 design passes—quieting chrome, sharpening spacing, fixing copy, and delivering an authentic product design.
